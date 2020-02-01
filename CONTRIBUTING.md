@@ -16,6 +16,26 @@ Fork, then clone the repo:
 git clone https://github.com/oesukam/drc-data.git
 ```
 
+#### Branch Naming
+
+Branches created should be named using the following format:
+
+```
+{type}-{2-3 word summary separated with hyphen}
+```
+
+Type:
+
+- feat: For new features
+- bug: Fixing bugs
+- chore: Refactoring, improving the code or the documentation
+
+Example:
+
+```
+chore-improve-readme
+```
+
 #### Testing
 
 To run tests:
@@ -38,14 +58,6 @@ To Lint
 npm run lint
 ```
 
-#### Building
-
-To build run:
-
-```
-npm run build
-```
-
 #### Quality insurance
 
 The `build` command should handle it but always run the `lint` command to ensure we are all developing with the same code standards.
@@ -62,5 +74,12 @@ On the other hand, sometimes the best way to start a conversation _is_ to send a
 1. Create breaking test(s) before implementing any fixes or functionality
 1. Make your changes
 1. Submit a pull request, referencing any issue that it resolves
+
+#### PR Description Template
+[Template](./.github/pull_request_template.md)
+
+## Contributor Code of Conduct
+
+[Code of Conduct](./CONTRIBUTOR_CONVENANT.md) is adapted from [Contributor Covenant, version 2.0](http://contributor-covenant.org/version/2/0)
 
 Thank you, we 💜 your contributions!
