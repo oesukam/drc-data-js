@@ -4,7 +4,15 @@
   "description": "The Democratic Republic of Congo locations data",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "build": "tsc --build",
+    "lint": "tsc --noEmit && eslint src/**/*.*",
+    "lint:fix": ""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint"
+    }
   },
   "repository": {
     "type": "git",
@@ -21,5 +29,14 @@
   "bugs": {
     "url": "https://github.com/oesukam/drc-data/issues"
   },
-  "homepage": "https://github.com/oesukam/drc-data#readme"
+  "homepage": "https://github.com/oesukam/drc-data#readme",
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "husky": "^4.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
 }
