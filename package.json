@@ -6,12 +6,14 @@
   "scripts": {
     "build": "tsc --build",
     "lint": "tsc --noEmit && eslint src/**/*.*",
-    "lint:fix": ""
+    "lint:fix": "eslint src/**/*.* --fix",
+    "test": "NODE_ENV=test jest --coverage --runInBand",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint",
-      "pre-push": "npm run lint"
+      "pre-push": "npm run lint && npm run test"
     }
   },
   "repository": {
@@ -31,11 +33,17 @@
   },
   "homepage": "https://github.com/oesukam/drc-data#readme",
   "devDependencies": {
+    "@types/jest": "^25.1.1",
     "@types/node": "^13.7.0",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "coveralls": "^3.0.9",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.0",
     "husky": "^4.2.1",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.1.0",
     "ts-node": "^8.6.2",
     "typescript": "^3.7.5"
   }
