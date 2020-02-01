@@ -1,12 +1,12 @@
-## We 💜 contributions
+### We 💜 contributions
 
 While we love contributions, we also need to ensure that our library is of great quality. Thus we require you to follow some simple guidelines when you're submitting your contributions.
 
-## Reporting Issues and Asking Questions
+### Reporting Issues and Asking Questions
 
 Before opening an issue, please search the [issue tracker](https://github.com/oesukam/drc-data/issues) to make sure your issue hasn’t already been reported.
 
-## Development
+### Development
 
 Visit the [issue tracker](https://github.com/oesukam/drc-data/issues) to find a list of open issues that need attention.
 
@@ -16,7 +16,7 @@ Fork, then clone the repo:
 git clone https://github.com/oesukam/drc-data.git
 ```
 
-### Testing
+#### Testing
 
 To run tests:
 
@@ -30,7 +30,7 @@ To continuously watch and run tests, run the following:
 npm run test:watch
 ```
 
-### Linting
+#### Linting
 
 To Lint
 
@@ -38,7 +38,7 @@ To Lint
 npm run lint
 ```
 
-### Building
+#### Building
 
 To build run:
 
@@ -46,11 +46,11 @@ To build run:
 npm run build
 ```
 
-### Quality insurance
+#### Quality insurance
 
 The `build` command should handle it but always run the `lint` command to ensure we are all developing with the same code standards.
 
-### Submitting a Pull Request
+#### Submitting a Pull Request
 
 For non-trivial changes, please open an issue with a proposal for a new feature or refactoring before starting on the work. We don’t want you to waste your efforts on a pull request that we won’t want to accept.
 
