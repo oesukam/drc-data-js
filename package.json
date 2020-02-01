@@ -1,0 +1,25 @@
+{
+  "name": "drc-data",
+  "version": "1.0.0",
+  "description": "The Democratic Republic of Congo locations data",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oesukam/drc-data.git"
+  },
+  "keywords": [
+    "DRC",
+    "RDC",
+    "CONGO",
+    "KINSHASA"
+  ],
+  "author": "Olivier Esuka <olivier.esuka@andela.com> (https://oesukam.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oesukam/drc-data/issues"
+  },
+  "homepage": "https://github.com/oesukam/drc-data#readme"
+}
