@@ -79,6 +79,7 @@ typings/
 
 # rollup.js default build output
 dist/
+/lib/
 
 # Temporary folders
 tmp/
