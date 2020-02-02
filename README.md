@@ -1,19 +1,19 @@
-### 🇨🇩The Democratic Republic of Congo locations data
+## 🇨🇩The Democratic Republic of Congo locations data
 
-[![Current Version](https://flat.badgen.net/npm/v/drc-data-js?icon=npm)](https://www.npmjs.org/package/drc-data-js)
-[![Build Status](https://flat.badgen.net/travis/arb/drc-data-js?icon=travis)](https://travis-ci.org/arb/drc-data-js)
-[![Code Coverage](https://flat.badgen.net/codecov/c/github/arb/drc-data-js?icon=codecov)](https://codecov.io/gh/arb/drc-data-js)
+[![npm version](https://badge.fury.io/js/drc-data-js.svg)](https://badge.fury.io/js/drc-data-js)
+[![Build Status](https://travis-ci.org/oesukam/drc-data-js.svg?branch=master)](https://travis-ci.org/oesukam/drc-data-js)
+[![Coverage Status](https://coveralls.io/repos/github/oesukam/drc-data-js/badge.svg?branch=master)](https://coveralls.io/github/oesukam/drc-data-js?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/da305cacd8dbfb410e93/maintainability)](https://codeclimate.com/github/oesukam/drc-data-js/maintainability)
 
+### Table of contents
 <!-- toc -->
-
-- [🇨🇩The Democratic Republic of Congo locations data](#%f0%9f%87%a8%f0%9f%87%a9the-democratic-republic-of-congo-locations-data)
-- [Examples](#examples)
-  - [Provinces](#provinces)
-- [Contribution](#contribution)
-  - [Contributors](#contributors)
-- [License](#license)
-- [Author](#author)
-
+  - [Table of contents](#table-of-contents)
+  - [Examples](#examples)
+    - [Provinces](#provinces)
+  - [Contribution](#contribution)
+    - [Contributors](#contributors)
+  - [License](#license)
+  - [Author](#author)
 <!-- tocstop -->
 
 ### Examples
