@@ -1,17 +1,12 @@
 {
   "extends": ["tslint:recommended", "tslint-config-prettier"],
   "rules": {
-    "trailing-comma": [
+    "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
+    "semicolon": [true, "always", "ignore-interfaces"],
+    "quotemark": [
       true,
-      {
-        "multiline": {
-          "objects": "always",
-          "arrays": "always",
-          "functions": "never",
-          "typeLiterals": "ignore"
-        },
-        "esSpecCompliant": true
-      }
+      "single",
+      "avoid-escape"
     ]
   }
 }
