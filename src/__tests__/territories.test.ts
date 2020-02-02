@@ -1,7 +1,7 @@
 import territories, { territoriesList } from '../territories';
 
 describe('territories', () => {
-  test('should return 164 number of territories', () => {
+  test('should return total number of territories to be 164', () => {
     const territoriesNumber = Object.keys(territoriesList).length;
     expect(territoriesNumber).toBe(164);
   });
