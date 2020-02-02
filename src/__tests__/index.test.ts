@@ -7,6 +7,6 @@ describe('index.ts -> provinces', () => {
 
   test('should return `Équateur` province', () => {
     const province = provinces('Équateur');
-    expect(province.province).toBe('Équateur');
+    expect(province.name).toBe('Équateur');
   });
 });
