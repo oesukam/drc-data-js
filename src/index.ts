@@ -1,9 +1,10 @@
-const provinces = () => console.log('Provinces');
-const districts = () => console.log('Disticts');
-const territories = () => console.log('Territories');
+import provincesFunc from './provinces';
 
-module.exports = {
+export const provinces = provincesFunc;
+
+const drc = {
   provinces,
-  districts,
-  territories,
-};
+}
+
+
+export default drc;

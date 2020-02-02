@@ -4,11 +4,11 @@ While we love contributions, we also need to ensure that our library is of great
 
 ### Reporting Issues and Asking Questions
 
-Before opening an issue, please search the [issue tracker](https://github.com/oesukam/drc-data/issues) to make sure your issue hasn’t already been reported.
+Before opening an issue, please search the [issue tracker](https://github.com/oesukam/drc-data-js/issues) to make sure your issue hasn’t already been reported.
 
 ### Development
 
-Visit the [issue tracker](https://github.com/oesukam/drc-data/issues) to find a list of open issues that need attention.
+Visit the [issue tracker](https://github.com/oesukam/drc-data-js/issues) to find a list of open issues that need attention.
 
 Fork, then clone the repo:
 
@@ -68,7 +68,7 @@ For non-trivial changes, please open an issue with a proposal for a new feature 
 
 On the other hand, sometimes the best way to start a conversation _is_ to send a pull request. Use your best judgement!
 
-1. Open a new issue in the [Issue tracker](https://github.com/oesukam/drc-data/issues)
+1. Open a new issue in the [Issue tracker](https://github.com/oesukam/drc-data-js/issues)
 1. Fork the repo
 1. Create a new feature branch based off the `master` branch
 1. Create breaking test(s) before implementing any fixes or functionality

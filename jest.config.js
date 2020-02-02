@@ -19,4 +19,9 @@ module.exports = {
   },
   moduleFileExtensions: ['ts', 'js', 'json'],
   testMatch: ['**/__tests__/**/*.{js,ts}?(x)'],
+  testPathIgnorePatterns : [
+    "./lib",
+    "./dist"
+  ],
+  collectCoverage: true
 };
