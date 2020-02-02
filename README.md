@@ -33,6 +33,22 @@ const { provinces } = require('drc-data');
 const province = provinces('Equateur');
 ``` 
 
+#### Territories
+- Get all territories
+```js
+const { territories } = require('drc-data');
+
+const allTerritories = territories();
+``` 
+
+- Filter territories
+Territories can be filetered by *name* and *province*.
+```js
+const { territories } = require('drc-data');
+
+const province = territories({ name: 'aketi', province: 'Bas-Uele' });
+``` 
+
 ### Contribution
 
 - Please read [the Contributing Guideline](./CONTRIBUTING.md) before raising a PR. 
