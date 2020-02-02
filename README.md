@@ -1,6 +1,6 @@
 ## 🇨🇩The Democratic Republic of Congo locations data
 
-[![Current Version](https://flat.badgen.net/npm/v/drc-data-js?icon=npm)](https://www.npmjs.org/package/drc-data-js)
+[![npm version](https://badge.fury.io/js/drc-data-js.svg)](https://badge.fury.io/js/drc-data-js)
 [![Build Status](https://travis-ci.org/oesukam/drc-data-js.svg?branch=master)](https://travis-ci.org/oesukam/drc-data-js)
 [![Coverage Status](https://coveralls.io/repos/github/oesukam/drc-data-js/badge.svg?branch=master)](https://coveralls.io/github/oesukam/drc-data-js?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/da305cacd8dbfb410e93/maintainability)](https://codeclimate.com/github/oesukam/drc-data-js/maintainability)
