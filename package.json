@@ -26,7 +26,8 @@
     "DRC",
     "RDC",
     "CONGO",
-    "KINSHASA"
+    "KINSHASA",
+    "drc-data"
   ],
   "author": "Olivier Esuka <oesukam@gmail.com> (https://oesukam.me)",
   "license": "MIT",
