@@ -3,7 +3,6 @@
  * territories
  * -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
  */
-import removeAccents from './utils/removeAccents';
 import territoriesData from './data/territoriesData';
 
 export interface TerritoryInterface {
@@ -64,15 +63,15 @@ function territoriesFunc(filter: FilterTerritoryType | void): TerritoryListInter
     const matchedName = filter.name && territory.name.includes(filter.name);
     const matchedProvince = filter.province && territory.province.includes(filter.province);
 
-    if (filter.name && filter.province && matchedName && matchedProvince) {
+    if (matchedName && matchedProvince) {
       newTerritoriesList[key] = territory;
     }
 
-    if (filter.name && matchedName && !filter.province) {
+    if (matchedName && !filter.province) {
       newTerritoriesList[key] = territory;
     }
 
-    if (filter.province && matchedProvince && !filter.name) {
+    if ( matchedProvince && !filter.name) {
       newTerritoriesList[key] = territory;
     }
   }
