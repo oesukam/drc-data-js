@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "module": "commonjs",
     "esModuleInterop": true,
-    "target": "es5",
+    "target": "es6",
     "moduleResolution": "node",
     "strict": true,
     "strictNullChecks": true,
